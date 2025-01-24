@@ -51,6 +51,7 @@ input[type="checkbox"] {
 .ministrylogo {
     margin-bottom: 15rem;
 }
+
 @media (max-width: 1400px) {
     .img-left-side {
         width: 500px;
@@ -84,6 +85,12 @@ input[type="checkbox"] {
     input[type="password"] , input[type="text"] {
         width: 700px;
     }
+    .leftSide {
+        height: auto;
+    }
+    .navLang {
+        padding-bottom: 1rem;
+    }
 }
 
 @media(max-width:1170px) {
@@ -114,15 +121,69 @@ input[type="checkbox"] {
 }
 @media(max-width: 360px) {
     input[type="password"] , input[type="text"] {
+        width: 310px;
+    }
+    #WelcomeTitle {
+        font-size: 2rem;
+    }
+    /* .navLang {
+        padding-bottom: 2rem;
+    } */
+    #rightSide {
+        padding-right: 2rem;
+        padding-top: 5rem;
+        height: 20rem;
+    }
+    .ministrylogo {
+        width: 18rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media(max-width: 393px) {
+    input[type="password"] , input[type="text"] {
         width: 350px;
     }
     #WelcomeTitle {
         font-size: 2rem;
     }
-    #WelcomeDesc {
-        /* font-size: 1rem; */
-    }
-    .navLang {
+    /* .navLang {
         padding-bottom: 2rem;
+    } */
+    #rightSide {
+        padding-right: 2rem;
+        padding-top: 5rem;
+        height: 20rem;
     }
+    .ministrylogo {
+        width: 18rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media(max-width: 412px) {
+    input[type="password"] , input[type="text"] {
+        width: 350px;
+    }
+    #WelcomeTitle {
+        font-size: 2rem;
+    }
+    #rightSide {
+        padding-right: 2rem;
+        padding-top: 5rem;
+        height: 20rem;
+    }
+    .ministrylogo {
+        width: 18rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+    /* .leftSide {
+        height: auto;
+    } */
 }
