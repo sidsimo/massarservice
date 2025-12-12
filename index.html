@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="transparent">
+    <meta name="keywords" content="massar,massar egbari,massar service,code massar,massari,sabahek massar egbari,massar 2o24,massar login,massar mot de passe oublié,code massare,code massar prof,massar egbari 2025,massar moutamadris,moutamadris massar,masar egbari,mabaatsh akhaf massar,massar egbari new album,+ masar,massar 2025,massar prof,gaye massar,massar 2022,massar 2020,massari co,ostad massar,massar egbari mabaatsh akhaf,massar taalim,massar waliye,massar mobile">
+    <meta name="desription" content="مرحبًا بك في حسابك الخاص
+    منظومة معلوماتية متكاملة تمكن من إرساء طرق عمل جديدة للتدبير المدرسي على صعيد المؤسسات التعليمية">
+    <meta name="author" content="by Yassin Divin">
+    <meta property="og:title" content="Login page">
+    <meta property="og:desription" content="مرحبًا بك في حسابك الخاص
+    منظومة معلوماتية متكاملة تمكن من إرساء طرق عمل جديدة للتدبير المدرسي على صعيد المؤسسات التعليمية">
+    <meta property="og:image" content="images/massar-logo.png">
+    <meta proprety="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://massar.men.gov.ma/Account">
+    <meta property="og:type" content="website"> 
+    <meta name="twitter:card" content="">
+    <meta name="twitter:title" content="Login page">
+    <meta name="twitter:desription" content="مرحبًا بك في حسابك الخاص
+    منظومة معلوماتية متكاملة تمكن من إرساء طرق عمل جديدة للتدبير المدرسي على صعيد المؤسسات التعليمية">
+    <meta name="twitter:image" content="images/massar-logo.png">
+    <meta name="twitter:site" content="@massar_service">
+    <meta name="twitter:creator" content="@Yassin_Divin">
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <!-- <link rel="stylesheet" href="print.css" media="print"> -->
+    <link rel="shortcut icon" href="images/th.png" type="image/x-icon">
+    <link rel="icon" href="images/th.png">
+    <link rel="apple-touch-icon" href="images/th.png">
+    <title>Login page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="w-full h-screen">
+    <main>
+        <div class="flex justify-between h-screen" id="container">
+            <div class="rightSide text-right h-screen text-white" id="rightSide">
+                <div id="slide1">
+                    <h1 id="WelcomeTitle" class="text-7xl" style="margin-bottom: 2rem;">مرحبًا بك في حسابك<br>الخاص</h1>
+                    <p id="WelcomeDesc" class="text-lg">منظومة معلوماتية متكاملة تمكن من إرساء طرق عمل جديدة للتدبير <br> المدرسي على صعيد المؤسسات التعليمية</p>
+                </div>
+                <div id="slide2">
+                    <img src="images/pngwing.com.png" alt="" class="img-left-side">
+                </div>
+            </div>
+                <div class="leftSide">
+                    <div class="ministrylogo flex justify-center">
+                        <img src="images/ministry-logo-ar.png" class="" style="width: 22rem;" alt="">
+                    </div>
+                    <form action="/Account" method="post" class="form-horizontal" role="form">
+                        <div class="formlogin">
+                            <div class="massarlogo flex justify-center" style="margin-bottom: 2rem;">
+                                <img src="images/massar-logo.png" alt="">
+                            </div>
+                            <div class="formloginstyle text-right">
+                                <div class="item">
+                                    <input type="text" data-val="true" data-val-required="المرجوا ادخال اسم المستخدم" placeholder="إسم المستخدم" name="text" id="text" autocomplete="on" required autofocus>
+                                </div>
+                                <div class="item">
+                                    <input type="password" data-val="true" data-val-required="المرجوا ادخال كلمة المرور" placeholder="كلمة المرور" name="password" id="password" required>
+                                    <!-- <i class='bx bx-hide'></i> -->
+                                </div>
+                                <div class="item" style="margin-bottom: 1rem;">
+                                    <label class="customCheckbox" dir="rtl">
+                                        <input data-val="true" data-val-required="The  حفظ  بيانات الدخول field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true">
+                                        <input name="RememberMe" type="hidden" value="false">
+                                        <span style="color: #000000bd;" id="important_text">حفظ  بيانات الدخول</span>
+                                    </label>
+                                </div>
+                                <div class="item text-center" style="margin-bottom: 2rem;">
+                                    <button id="btnSubmit" class="submitBtn submitBtn-large" type="submit">تسجيل الدخول </button>
+                                </div>
+                                <div class="item" style="margin-bottom: 10rem;" id="footer">
+                                    <a href="#" onclick="MotDePasseOublie();" class="mdp-oublie" id="text" style="font-size: 15px;color: #000000bd;">استرجاع كلمة المرور</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <nav class="navLang text-right" dir="rtl" style="color: #000000bd;">
+                        <ul class="inline-flex gap-3">
+                            <li>
+                                <a class="current" href="" id="arabic">
+                                    العربية
+                                </a>
+                            </li>
+                            <li>
+                                <a class="current" href="" id="french">
+                                    الفرنسية
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
